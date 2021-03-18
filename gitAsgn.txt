@@ -1,0 +1,61 @@
+
+GIT ASSIGNMENT COMMAND LOG
+
+mkdir project_dir
+cd project_dir
+
+git init
+
+touch index.html
+
+git status
+
+git add index.html
+
+Add .gitignore file with files not to be staged.
+
+git status
+
+git commit -a -m "Commit Message"
+
+git log (Log so far!)
+
+git reset HEAD  (unstaged staged file). or git restore --staged fileName (Unstasged).
+
+git restore filename  (Helps to discard changes made to the file before.)
+
+git reset HEAD~ (Reverts last commit by unstaging the file.)
+
+===========================================================================================
+
+BRANCHING 
+
+git branch  #Shows the current branch
+
+git checkout branchName   # Changing to specific branch
+
+git branch NewBranchName  # Creating a new Branch 
+
+git checkout -b branchName  
+
+git merge master FeatureBranchName
+
+git branch -d BranchName (Deletes a branch)
+
+======================================================================================
+
+
+REMOTING
+
+git origin add master remoteLink(clone link)
+
+git push origin master
+
+  
+
+
+
+
+
+
+
